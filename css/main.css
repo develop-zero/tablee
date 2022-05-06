@@ -364,6 +364,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: aquamarine;
 }
 
 main {
@@ -392,7 +393,19 @@ img {
 }
 
 .container {
-  margin: 0 auto;
+  width: 570px;
+  margin: auto;
   padding: 0 20px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: aqua;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
 }
 /*# sourceMappingURL=main.css.map */
